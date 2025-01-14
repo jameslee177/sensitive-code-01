@@ -12,7 +12,7 @@ with open('mock_users.json', 'r') as f:
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-@app.route('/api/login', methods=['POST'])
+@app.route('/anything/api/login', methods=['POST'])
 def login():
     """
     Logs the user in with email + password.
